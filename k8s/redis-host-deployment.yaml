@@ -7,7 +7,7 @@ metadata:
   creationTimestamp: null
   labels:
     io.kompose.service: redis-host
-    app: dof-exam-
+    app: dof-exam
   name: redis-host
 spec:
   replicas: 1
