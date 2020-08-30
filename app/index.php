@@ -35,7 +35,9 @@
 	<body style="background-color: #ffffff;">
 		<div align="center">
 			<h1>New tool every day, keeps the boss ... satisfied :)</h1>
-			<br /><br /><br />
+			<br />
+			<h1>One possible change to test Jenkins Git Polling ...</h1>
+			<br /><br />Git
 			<img width="800px" src="images/<?php echo $tools[$tool][1]; ?>" alt="<?php echo $tools[$tool][0]; ?>">
 			<br /><br /><br />
 			<h4><?php echo $tools[$tool][0]; ?> has been seen <b><?php $value = $client->incr("tool:".$tool); print($value." "); ?></b>time(s) so far.</h4>
